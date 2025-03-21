@@ -1,6 +1,6 @@
 # Automated-ticket-Acquisition-System
 
-This is a Selenium-based bot that automates the process of purchasing tickets for events.
+This is a Selenium-based bot that automates the process of purchasing tickets specifically for the UWCSA saint patricks event
 
 ---
 
