@@ -1,47 +1,23 @@
 # Automated-ticket-Acquisition-System
 
-Automated Ticket Acquisition System
-About:
-I developed a Python-based automation tool using Selenium WebDriver that secures tickets for high-demand university events, specifically the UWCSA St. Patrick's Day celebration that typically sells out within seconds.
+This project automates the process of acquiring tickets for events using Selenium WebDriver. It interacts with the event ticketing website to select tickets, fill out attendee details, and complete the checkout process.
 
-Goal:
-This system solves the challenge of acquiring multiple tickets simultaneously when they become available, completing all registration and payment steps automatically with minimal human intervention.
+## Features
 
-Features
-Dynamic ticket element detection across website updates
-Multi-user registration for up to 7 attendees
-Automated form completion and waiver acceptance
-Secure payment processing through iframe navigation
-Download Instructions
-Automated ticket acquisition using Selenium WebDriver for university events.
+- Automatically selects the desired number of tickets.
+- Fills out attendee information and waivers.
+- Completes the billing and payment process.
+- Handles dynamic element IDs for ticket selection.
 
-Requirements
-Python 3.6 or later
-Google Chrome browser
-Selenium
-webdriver-manager
-Installation
-Clone the Repository:
+## Prerequisites
 
-Create a Virtual Environment:
+Before running the script, ensure you have the following installed:
 
-Activate the Virtual Environment:
+1. **Python**: Version 3.7 or higher.
+2. **Google Chrome**: Latest version.
+3. **ChromeDriver**: Managed automatically by `webdriver-manager`.
 
-For Command Prompt:
-For PowerShell:
-For Git Bash:
-Install Required Packages:
+Install the required Python packages using:
 
-Usage
-Configure the script with your details:
-
-Update TICKET_COUNT to your desired number of tickets
-Add attendee information for all tickets
-Enter payment details when ready to purchase
-Run the automation when tickets become available:
-
-Exit the program:
-
-The browser will remain open until you press Enter to confirm tickets were purchased
-Note
-This tool is for educational purposes. Please use responsibly and in accordance with event policies.
+```bash
+pip install selenium webdriver-manager
