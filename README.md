@@ -1,23 +1,27 @@
 # Automated-ticket-Acquisition-System
 
-This project automates the process of acquiring tickets for events using Selenium WebDriver. It interacts with the event ticketing website to select tickets, fill out attendee details, and complete the checkout process.
+This is a Selenium-based bot that automates the process of purchasing tickets for events.
 
-## Features
+---
 
-- Automatically selects the desired number of tickets.
-- Fills out attendee information and waivers.
-- Completes the billing and payment process.
-- Handles dynamic element IDs for ticket selection.
+## How to Use
 
-## Prerequisites
+1. **Download the Project**  
+   Clone the repository or download the ZIP file:
+   ```bash
+   git clone https://github.com/Twqy/Automated-ticket-Acquisition-System.git
+   cd Automated-ticket-Acquisition-System
 
-Before running the script, ensure you have the following installed:
+   Install Requirements
+Install Python dependencies: pip install -r requirements.txt
 
-1. **Python**: Version 3.7 or higher.
-2. **Google Chrome**: Latest version.
-3. **ChromeDriver**: Managed automatically by `webdriver-manager`.
+Run the Bot
+Run the script: python "ticket acquisition bot.py"
 
-Install the required Python packages using:
+Notes
+Make sure you have Google Chrome installed.
+The bot uses ChromeDriver, which is automatically managed by webdriver-manager.
+Update the script with your personal details (e.g., name, email, credit card info) before running.
 
-```bash
-pip install selenium webdriver-manager
+Disclaimer
+This bot is for educational purposes only. Automating ticket purchases may violate the terms of service of the website. Use responsibly.
